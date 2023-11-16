@@ -1,0 +1,40 @@
+.menu {
+  width: 570px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px 10px;
+  align-items: center;
+  height: 30px;
+}
+
+.activeTodos {
+  font: normal 14px/16px Poppins, sans-serif;
+  color: gray;
+  margin: 0;
+}
+
+.filter {
+  display: flex;
+  gap: 1rem;
+
+  p {
+    @extend .activeTodos;
+    cursor: pointer;
+    padding: 10px 0;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.removeAll {
+  @extend .activeTodos;
+  cursor: pointer;
+
+  &:hover {
+    color: black;
+  }
+}

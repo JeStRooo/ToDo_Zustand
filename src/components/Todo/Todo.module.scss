@@ -1,0 +1,19 @@
+.todoItem {
+  width: 570px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.inputText {
+  width: 100%;
+  border: none;
+  font: normal 17px/19px Poppins, sans-serif;
+  margin-left: 10px;
+  outline: none;
+  cursor: default;
+}

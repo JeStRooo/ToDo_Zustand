@@ -1,6 +1,6 @@
 .form {
   margin-top: 2rem;
-  background: #f3f6f8;
+  background: #fff;
   border-radius: 10px;
   width: 550px;
   display: flex;
@@ -20,7 +20,10 @@
   border-radius: 5px;
   border: none;
   font: normal 17px/19px Poppins, sans-serif;
-  outline: 1px solid #4448DA;
+
+  &:focus {
+    outline: 1px solid #4448DA;
+  }
 }
 
 .buttonAdd {
